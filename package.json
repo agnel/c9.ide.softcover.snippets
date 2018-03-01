@@ -1,4 +1,28 @@
 {
-  "name": "softcover.snippets",
-  "plugins": {}
+  "name": "c9.ide.softcover.snippets",
+  "description": "A Cloud9 Plugin for Softcover Snippets",
+  "version": "1.0.0",
+  "author": "Agnel Waghela",
+  "contributors": [
+    {
+      "name": "Agnel Waghela",
+      "email": "agnelwaghela@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/agnel/c9.ide.softcover.snippets"
+  },
+  "keywords": [],
+  "plugins": {},
+  "categories": [
+    "snippets",
+    "plugins",
+    "cloud9",
+    "c9",
+    "softcover"
+  ],
+  "licenses": [
+    "MIT"
+  ]
 }
