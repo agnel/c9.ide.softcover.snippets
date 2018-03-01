@@ -1,0 +1,183 @@
+scope: _
+snippet \(
+	\( ${0} \)
+
+snippet \[
+	\[ ${0} \]
+
+snippet ptn
+	\( ${0} \)
+
+snippet ptnc
+	\[ ${0} \]
+
+snippet frac
+	\frac{${1}}{${2}}
+
+snippet dfrac
+	\dfrac{${1}}{${2}}
+
+snippet item
+	\begin{itemize}
+		\item ${1}
+		\item ${0}
+	\end{itemize}
+
+snippet enum
+	\begin{enumerate}
+		\item ${1}
+		\item ${0}
+	\end{enumerate}
+
+snippet dot
+	\dot{${1}}
+
+snippet ol
+	\overline{${1}}
+
+snippet times
+	\times
+
+snippet label
+	\label{${0:label_identifier}}
+
+snippet ref
+	~\ref{${0:label_identifier_to_reference}}
+
+snippet eqref
+	~\eqref{${0:equation_label_identifier_to_reference}}
+
+snippet tilde
+	\textasciitilde
+
+snippet text
+	\text{${0}}
+
+snippet bold
+	\textbf{${0}}
+
+snippet b
+	\textbf{${0}}
+
+snippet textbf
+	\textbf{${0}}
+
+snippet italic
+	\textit{${0}}
+
+snippet i
+	\textit{${0}}
+
+snippet textit
+	\textit{${0}}
+
+snippet texttt
+	\texttt{${0}}
+
+snippet ttt
+	\texttt{${0}}
+
+snippet smallcaps
+	\textsc{${0}}
+
+snippet textsc
+	\textsc{${0}}
+
+snippet _
+	\underline{${0}}
+
+snippet therefore
+	\therefore
+
+snippet since
+	\because
+
+snippet because
+	\because
+
+snippet begend
+	\begin{${1}}
+		${0}
+	\end{$1}
+
+snippet pbox
+	\pbox{${1:9cm}}{${0:your_paragraph}}
+
+snippet fig
+	\begin{figure}[${1:placement_specifier - h, h!, H, t, b, p}]
+		\image{${2:images/figures/image.png}}
+		\caption{${3:image_caption_here.}\label{fig:${0:figure_label_here}}}
+	\end{figure}
+
+snippet aside
+	\begin{aside}
+		\label{aside:${1:label_for_this_aside}}
+		\heading{${2:heading_for_this_aside}}
+		${0:aside_content_goes_here}
+	\end{aside}
+
+snippet phi
+	\phi
+
+snippet sqrt
+	\sqrt{${0}}
+
+snippet approx
+	\approx
+
+snippet txt
+	\text{${0}}
+
+snippet qquad
+	\qquad{${0}}
+
+snippet coloredtext
+	\coloredtext{${1:color_in_words}}{${0:your_text}}
+
+snippet coloredtexthtml
+	\coloredtexthtml{${1:HEX_COLOR_CODE}}{${0:your_text}}
+
+snippet footnote
+	[^${1:footnote_label}]: ${0:your_footnote}
+
+
+snippet reffootnote
+	[^${0:footnote_label}]
+
+snippet latex
+	\LaTeX
+
+snippet polytex
+	\PolyTeX
+
+snippet eq
+	\begin{equation}
+		${0}
+	\end{equation}
+
+snippet equation
+	\begin{equation}
+		${0}
+	\end{equation}
+
+snippet quote
+	\begin{quote}
+		${0}
+	\end{quote}
+
+snippet q
+	\begin{quote}
+		${0}
+	\end{quote}
+
+snippet table
+	\begin{table}
+		\caption{${1:your_table_caption_here}\label{table:${2:your_table_label_here}}}
+		\begin{tabular}{|r|lc|}
+		  \hline
+		  ${3:r1c1_content} & ${4:r1c2_content} & ${5:r1c3_content} \\
+		  \hline
+		  ${0} \\
+		  \hline
+		\end{tabular}
+	\end{table}
